@@ -42,6 +42,7 @@ body {
 
     background-color: #c5ebd6;
     font-family: var(--fonte-padrao);
+    
 }
 
 
@@ -155,6 +156,9 @@ main a:hover {
     color: #1a5c37;
 }
 
+
+
+
 main img {
 
     width: 100%;
@@ -165,6 +169,20 @@ main img.pequena {
     max-width: 350px;
     margin: auto;
     display: block;
+}
+
+button {
+    background-color: #83e1ad;
+    color: #063d1e;
+    padding: 2px 6px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+button:hover {
+    text-decoration: underline;
+    color: #1a5c37;
 }
 
 div.video {
@@ -245,4 +263,18 @@ font-weight: bolder;
 footer a:hover {
     color: white;
     text-decoration: underline;
+}
+
+.galeria-projetos {
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+}
+
+.galeria-projetos img {
+    width: 300px; /* Defina a largura desejada */
+    height: auto; /* Ajusta a altura automaticamente mantendo a proporção */
+    margin-bottom: 20px; /* Espaço entre a imagem e o próximo elemento */
+    margin: 0 auto 20px auto; /* Centraliza horizontalmente e adiciona espaçamento abaixo */
+    border: 2px solid #ccc; /* (Opcional) Borda para destacar as imagens */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* (Opcional) Sombra para melhor visualização */
+    
 }
